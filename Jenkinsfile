@@ -7,7 +7,7 @@ pipeline
     {
       steps
       {
-        sh 'touch /opt/searching.txt'
+        sh 'touch /var/lib/jenkins/searching.txt'
       }
     }
   }

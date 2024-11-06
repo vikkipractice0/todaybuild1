@@ -1,8 +1,9 @@
 pipeline
 {
   agent any
-  stages {
-    stage('i am creating a file')
+  stages
+  {
+    stage ('i am creating a file')
     {
       steps
       {
